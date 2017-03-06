@@ -1,0 +1,19 @@
+PODS:
+  - BRMediator (0.0.1)
+  - TestA_Category (0.1.0)
+
+DEPENDENCIES:
+  - BRMediator
+  - TestA_Category (from `../`)
+
+EXTERNAL SOURCES:
+  TestA_Category:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BRMediator: 18ab1fffafc35234236fde6b4eefd11b48ebe3e4
+  TestA_Category: c111415542a4a4d7d4d9aec97099253207f8474e
+
+PODFILE CHECKSUM: 4cd5175b019c63ae1c5865e17fdd449cdcb74393
+
+COCOAPODS: 1.2.0

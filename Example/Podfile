@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'TestA_Category_Example' do
   pod 'TestA_Category', :path => '../'
+  pod 'BRMediator'
 
   target 'TestA_Category_Tests' do
     inherit! :search_paths
