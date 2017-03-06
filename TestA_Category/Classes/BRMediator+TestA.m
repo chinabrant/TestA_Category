@@ -10,4 +10,8 @@
 
 @implementation BRMediator (TestA)
 
+- (UIViewController *)TestA_aViewController {
+    return [self performTarget:@"TestA" action:@"viewController" params:nil shouldCacheTarget:NO];
+}
+
 @end

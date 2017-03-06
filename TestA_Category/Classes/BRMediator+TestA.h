@@ -10,4 +10,6 @@
 
 @interface BRMediator (TestA)
 
+- (UIViewController *)TestA_aViewController;
+
 @end
